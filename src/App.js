@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Component/About/About';
 import Blogs from './Component/Blogs/Blogs';
+import Footer from './Component/Footer/Footer';
 import Graps from './Component/Grapes/Graps';
 import Home from './Component/Home/Home';
 import Nav from './Component/Nabvar/Nav';
@@ -24,6 +25,7 @@ function App() {
        <Route path='/about' element={<About/>}/>
        <Route path='*' element={<Notfound/>}/>
      </Routes>
+     <Footer/>
     </div>
   );
 }
