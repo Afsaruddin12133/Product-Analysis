@@ -7,6 +7,7 @@ import img from '../image/Pizzateca Logo - Original - 5000x5000.png';
 const Nav = () => {
     const navinfo = [
         {id:1,name:'Home',link:"/"},
+        {id:2,name:'Order',link:"/order"},
         {id:2,name:'Reviews',link:"/reviews"},
         {id:3,name:'Graps',link:"/graps"},
         {id:4,name:'Blogs',link:"/blogs"},

@@ -6,6 +6,7 @@ import Graps from './Component/Grapes/Graps';
 import Home from './Component/Home/Home';
 import Nav from './Component/Nabvar/Nav';
 import Notfound from './Component/Notfound/Notfound';
+import Order from './Component/Order/Order';
 import Reviews from './Component/Reviews/Reviews.js';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       {/* This is Router To route all pages */}
      <Routes>
        <Route path='/' element={<Home/>}/>
+       <Route path='/order' element={<Order/>}/>
        <Route path='/reviews' element={<Reviews/>}/>
        <Route path='/graps' element={<Graps/>}/>
        <Route path='/blogs' element={<Blogs/>}/>
