@@ -9,7 +9,7 @@ const Nav = () => {
         {id:1,name:'Home',link:"/"},
         {id:2,name:'Order',link:"/order"},
         {id:2,name:'Reviews',link:"/reviews"},
-        {id:3,name:'Graps',link:"/graps"},
+        {id:3,name:'Chart',link:"/graps"},
         {id:4,name:'Blogs',link:"/blogs"},
         {id:5,name:'About',link:"/about"}
     ];
