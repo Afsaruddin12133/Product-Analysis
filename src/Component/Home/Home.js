@@ -31,7 +31,7 @@ const Home = () => {
                }
             </div>
             <div className='w-[260px] m-auto'>
-              <button class="btn btn-wide mx-auto gap-2"><Link to = "/reviews">See Customer review</Link> 
+              <button className="btn btn-wide mx-auto gap-2"><Link to = "/reviews">See Customer review</Link> 
               <ArrowRightIcon className='w-5'/>
               </button>
               </div>

@@ -1,9 +1,10 @@
 import React from 'react';
+import img from '../image/istockphoto-538038858-1024x1024.jpg';
 
 const Notfound = () => {
     return (
         <div>
-            <h1 className='text-center text-2xl mt-10'>This is a 404 Page</h1>
+          <img className='w-full m-auto mt-5' src={img} alt="" />
         </div>
     );
 };
