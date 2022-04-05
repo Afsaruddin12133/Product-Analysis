@@ -2,11 +2,10 @@
 
 Live Site link : [https://graceful-figolla-f354d0.netlify.app/](https://graceful-figolla-f354d0.netlify.app/)
 
-This will create a bullet point list in your markdown
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-  
+1. Ordered One
+   * Unordered First
+   * Unordered Second
+   * Unordered Third
 ### `npm start`
 
 Runs the app in the development mode.\
