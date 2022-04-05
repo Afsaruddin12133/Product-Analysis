@@ -14,9 +14,9 @@ const Home = () => {
                 <h1 className='text-4xl md:text-6xl md:m-3 text-[#F2A65E]'>Pizzateca is Forever!!</h1>
                 <h2 className='md:text-4xl text-2xl md:mx-5  md:m-5 my-3 text-[#647429]'>The best Pizza For You!!</h2>
                 <p className='md:my-8 md:p-5 text-xl mb-4'>Chicken sausage Best Pizza Take from Pizzateca.This is the best pizza delivery recode in pizzateca.Pizzateca service is very awesome. Americans eat approximately 100 acres of pizza each day, or 350 slices per second. They are take from Pizzateca. It is a world wide pizza hut.94% of Americans eat pizza regularly from pizzateca.You Have take super Offer from pizzateca. </p>
-                <button type='click' className="btn btn-primary md:mx-5 mb-10 inline"><Link to="/order">Order Now
-                </Link>
+                <Link to="/order"> <button type='click' className="btn btn-primary md:mx-5 mb-10 inline">Order Now
                 </button>
+                </Link>
             </div>
             <div className='md:w-[50%]'>
                 <img className='md:rounded-lg md:h-[445px]' src={img} alt="" />

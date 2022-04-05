@@ -41,8 +41,8 @@ const Graps = () => {
         }
     ]
 return (
-  <div>
-     <div className='w-[800px] m-auto mt-10'>
+  <div className='gap-8'>
+     <div className='md:w-[800px] md:m-auto md:mt-10 w-[400px]'>
    <BarChart width={800} height={250} data={data}>
   <CartesianGrid strokeDasharray="3 4" />
   <XAxis dataKey="month" />
@@ -54,7 +54,7 @@ return (
   <Bar dataKey="revenue" fill="#82ca9d" />
 </BarChart>
       </div>
-    <div className='w-[800px] m-auto mt-10'>
+    <div className='md:w-[800px] md:m-auto md:mt-10 w-[400px]'>
     <PieChart width={800} height={250}>
     <Tooltip />
   <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
